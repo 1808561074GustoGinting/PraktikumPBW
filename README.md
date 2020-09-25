@@ -1,2 +1,2 @@
-# PraktikumPBW
-Gusto Gibeon Ginting_1808561074
+# Gusto Gibeon Ginting
+1808561074
