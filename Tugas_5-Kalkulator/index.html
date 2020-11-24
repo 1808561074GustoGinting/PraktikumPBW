@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+	<link rel="stylesheet" href="style.css">
 <meta charset="utf-8">
 <title>Kalkulator</title>
 </head>
@@ -9,21 +10,23 @@
 	<script src="index.js"></script>
 	<div align="center">
 <form name="calc" action="#">
-<p>Penuhi Kolom Dibawah Ini Dengan Bilangan Yang Ingin Anda Operasikan</p>
-<p>Kemudian Tentukan Operasi Yang  Ingin Anda Lakukan </p>
-	<p>----------------------------------------------------------------------------------</p>
+<h1>Kalkulator</h1>
+	<h1>--------------------------</h1>
 <p>Bilangan 1  <input type="text" name="bil1" /></p>
 <p>Bilangan 2  <input type="text" name="bil2" /></p>
-<p></p>Operasi <select name="opt">
+<p>Operasi <select name="opt">
  <option value="tambah"> + (Penjumlahan)</option>
  <option value="kurang"> - (Pengurangan)</option>
  <option value="kali"> * (Perkalian)</option>
  <option value="bagi"> / (Pembagian)</option>
 </select>
+	</p>
 <p></p>
-<input type="button" value="HASIL" onClick="hitung()" />
+<button type="button" value="HASIL" onClick="hitung()"><strong>HASIL</strong></button>
 <input type="text" name="hasil" disabled="true" />
-<p></p><input type="button" value="CLEAR" onClick="resetForm()" />
+<p></p>
+<button type="button" value="CLEAR" onClick="resetForm()"><strong>CLEAR</strong></button>
+<p></p>
 </form>
 </div>
 </body>
